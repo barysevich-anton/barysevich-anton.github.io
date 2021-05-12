@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto+Mono:ital,wght@0,400;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="shortcut icon" href="./images/customer.png" />
+    <title>Customer Info</title>
+  </head>
+  <body>
+    <header class="header_menu">
+      <div class="container">
+        <div class="row_header">
+          <div class="info_about">
+            <a href="./index.html">
+              <img src="./images/logo_img.png" alt="" class="img_logo" />
+            </a>
+          </div>
+          <!-- <a href="#city_tokyo" class="nav_link">Tokyo</a> -->
+          <nav class="nav_sticky">
+            <ul class="nav_menu">
+              <li class="nav_item">
+                <ul class="toggle_menu">
+                  <a href="./index.html" class="toggle_show">Cities</a>
+
+                  <div class="block_hidden">
+                    <li class="item_toggle">
+                      <a href="./index.html" class="nav_link_hidden">Tokyo</a>
+                    </li>
+                    <li class="item_toggle">
+                      <a href="./index.html" class="nav_link_hidden">London</a>
+                    </li>
+                    <li class="item_toggle">
+                      <a href="./index.html" class="nav_link_hidden">Paris</a>
+                    </li>
+                    <li class="item_toggle">
+                      <a href="./index.html" class="nav_link_hidden">Bangkok</a>
+                    </li>
+                  </div>
+                </ul>
+              </li>
+              <li class="nav_item">
+                <ul class="toggle_menu">
+                  <a href="#" class="toggle_show">Forms</a>
+
+                  <div class="block_hidden">
+                    <li class="item_toggle">
+                      <a href="./customerForm.html" class="nav_link_hidden"
+                        >Customer Info</a
+                      >
+                    </li>
+                    <li class="item_toggle">
+                      <a href="./serviceForm.html" class="nav_link_hidden"
+                        >Service Description</a
+                      >
+                    </li>
+                    <li class="item_toggle">
+                      <a href="./placeForm.html" class="nav_link_hidden"
+                        >Place Implementation</a
+                      >
+                    </li>
+                  </div>
+                </ul>
+              </li>
+              <!-- <li class="nav_item"><a href="#city_paris" class="nav_link">Paris</a></li>
+                          <li class="nav_item"><a href="#city_bangkok" class="nav_link">Bangkok</a></li> -->
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="section_customer">
+      <div class="container">
+        <form action="" class="toggle_customer">
+          <div class="block_inputs">
+            <h1 class="h1_Form">Customer Info Form</h1>
+
+            <label for="" class="labelCustomer"
+              >Client Name
+              <input
+                type="text"
+                class="clientInput"
+                id="client_name"
+                placeholder="Enter the name..."
+                maxlength="25"
+                autocomplete="off"
+                required
+              />
+            </label>
+
+            <label for="" class="labelCustomer"
+              >Client Address
+              <input
+                type="text"
+                class="clientInput"
+                id="client_address"
+                placeholder="Enter the address..."
+                maxlength="25"
+                autocomplete="off"
+                required
+              />
+            </label>
+
+            <label for="" class="labelCustomer">
+              Client Phone
+              <input
+                type="text"
+                class="clientInput"
+                id="client_phone"
+                placeholder="Enter the client phone"
+                maxlength="25"
+                autocomplete="off"
+                required
+              />
+            </label>
+
+            <label for="" class="labelCustomer"
+              >Client Email
+              <input
+                type="email"
+                class="clientInput"
+                id="client_email"
+                placeholder="Enter the client email..."
+                maxlength="25"
+                autocomplete="off"
+                required
+              />
+            </label>
+
+            <label for="" class="labelCustomer">
+              Invoice
+              <input
+                type="text"
+                class="clientInput"
+                id="invoice"
+                placeholder="Enter the invoice..."
+                maxlength="25"
+                autocomplete="off"
+                required
+              />
+            </label>
+
+            <button id="btn_sendCustomer" class="btn_send">
+              send customer info
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

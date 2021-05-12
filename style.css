@@ -1,0 +1,349 @@
+#h3_idBangkok {
+  font-size: 4.2rem;
+  letter-spacing: 1rem;
+  color: #333;
+}
+
+#span_idBangkok {
+  color: #454545;
+  line-height: 3rem;
+  letter-spacing: 0.25rem;
+  font-style: italic;
+  font-weight: 500;
+}
+
+#footerStudent {
+  font-size: 3.2rem;
+  color: aliceblue;
+  font-style: oblique;
+  letter-spacing: 0.25rem;
+  text-decoration: underline;
+  text-shadow: 2px 2px #0004ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Forms Styles 
+*/
+
+.toggle_customer {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.block_inputs {
+  width: 50rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.labelCustomer {
+  font-size: 2rem;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  width: 350px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.labelService {
+  width: 55rem;
+}
+
+.clientInput {
+  padding: 1rem;
+
+  border: 1px solid #333;
+}
+
+.block_inputs {
+  width: auto;
+  margin: 0 auto;
+}
+
+.btn_send {
+  font-family: "Montserrat", sans-serif;
+  width: 27rem;
+  margin: 4rem auto;
+  border: none;
+  background: #404040;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 20px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+}
+
+.btn_send:hover {
+  font-family: "Montserrat", sans-serif;
+  color: #404040;
+  font-weight: 600;
+  letter-spacing: 3px;
+  background: none;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.3s ease 0s;
+}
+
+.textarea_style {
+  min-width: 15rem;
+  min-height: 10rem;
+
+  resize: none;
+}
+
+.h1_Form {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.clientInput:focus {
+  outline: none;
+  border: 1px solid #333;
+  cursor: pointer;
+
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.3s ease 0s;
+}
+
+@media only screen and (max-width: 768px) {
+  .labelCustomer {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .labelCustomer {
+    width: 50%;
+  }
+}
+
+/* request xml style */
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.tableInfo {
+  margin: auto;
+  margin-top: 2rem;
+}
+
+th {
+  border: 2px solid #333;
+  background-color: rgb(211, 161, 95);
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
+}
+
+td {
+  border: 1px solid #404040;
+  text-align: center;
+  padding: 0.2rem 0.5rem;
+}
+
+td:nth-child(even) {
+  background-color: beige;
+}
+
+td:nth-child(odd) {
+  background-color: burlywood;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.pushMessage {
+  width: 320px;
+  height: 50px;
+  background-color: rgba(80, 158, 128, 0.568);
+  /* opacity: 0; */
+  animation: show 0.2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pushMessage {
+  display: block;
+  font-size: 2rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+header {
+  min-height: 100px;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.search {
+  position: relative;
+  margin-right: 10%;
+}
+
+.js-input-search {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+.js-btn-search {
+  position: absolute;
+  right: 1%;
+  top: 8%;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-image: url(./images/loupe.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: olive;
+  transition: 0.2s all ease;
+}
+
+.js-btn-search:active {
+  background-color: orange;
+}
+
+.push {
+  position: absolute;
+  top: 120%;
+  left: 5%;
+}
+
+.linkMain {
+  position: absolute;
+  left: 15%;
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.headerAPI {
+  height: 10vh;
+  background-color: #333;
+}
+
+.btnSelect {
+  margin: 2rem;
+  display: block;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+
+  border-radius: 2px;
+  color: #ffffff;
+
+  background-color: transparent;
+  border: none;
+  user-select: none;
+  cursor: pointer;
+
+  transition: 0.3s all ease;
+}
+
+.btnSelect:hover {
+  background-color: #ffffff;
+  color: #333;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tableTitle {
+  cursor: default;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin-top: 10%;
+}
+
+.linkToMainPageIndex {
+  margin-top: 2rem;
+  margin-right: 13rem;
+  display: block;
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+.titleContentCourse {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.contentInfoCurrentCourse {
+  font-size: 1.5rem;
+}
+
+.contentCurrentCourse {
+  padding: 1rem 1.5rem;
+}
+
+.divFlex {
+  background-color: #404040;
+}
+
+.trDateCourse {
+  width: 200%;
+  display: flex;
+  justify-content: center;
+}
+
+.infoHistoryCourse {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.h2TitleDate {
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.infoData {
+  margin: 1rem;
+}
+
+.tableInfoContent {
+  margin: 0 auto;
+}
